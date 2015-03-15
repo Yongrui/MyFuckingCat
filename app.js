@@ -212,6 +212,6 @@ function genCatMoveDir(cat) {
     } else if (maxDist > 1) {
         return maxDir;
     } else {
-        MOVE_NONE;
+        return MOVE_NONE;
     }
 }
